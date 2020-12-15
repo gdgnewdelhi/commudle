@@ -23,9 +23,7 @@
 * `bundle install --deployment`
 * `rails db:setup` (though this will load the seed as well, but you can run rake db:seed, just in case)
 * `rails active_storage:install`
-* `rails db:setup`
-* `rails db:seed` 
-(this will setup the data for roles, question_types, registration status and event status)
+* `rails db:seed`
 * Create an ER Diagram `rails db:migrate`
 
 ### Run the Server
