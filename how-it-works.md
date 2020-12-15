@@ -14,7 +14,7 @@ There are 2 roles majorly in a community:
 Here we've also put up roles 'Attendance Managers' and 'System Administrator' in the code in the [DB seed](db/seeds.rb). You'll soon understand how they work.
 
 ### Permissions
-These are based on the role of the user. Once the user has a role, the file [role_permission](controllers/concerns/role_permission.rb) describes what controllers and actions can the user access.
+These are based on the role of the user. Once the user has a role, the file [role_permission](https://github.com/gdgnewdelhi/commudle/blob/master/app/controllers/concerns/role_permission.rb) describes what controllers and actions can the user access.
 Multiple roles can be allocated to one user (it's a Many to Many Relation).
 
 
